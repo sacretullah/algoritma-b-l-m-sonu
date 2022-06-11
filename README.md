@@ -20,3 +20,42 @@ Time Complexity 18 sayisi dizi siralamasindan sonra ortada oldugundan Average ca
 [2,3,4,8,7,9,5,15,6] n-2
 [2,3,4,5,7,9,8,15,6] n-4
 şeklinde olacaktir.
+
+MERGE
+[16,21,11,8,12,22]
+
+[16,21,11]    [8,12,22]
+
+[16] [21,11]    [8,12] [22]
+
+[16]    [21]   [11]   [8]   [12]   [22]
+
+[8,11,12,16,21,22]
+
+Big-O gösterimi : O n(logn)
+
+
+
+Binary
+
+Binary Search Tree Projesi
+
+root 7
+
+5, 7 den küçük olduğu için soluna gelir
+
+1, 7 ve 5 den küçük olduğu için 5 in soluna gelir
+
+8, 7 den büyük olduğu için 7 nin sağına gelir
+
+3, 7 ve 5 den küçük fakat 1 den büyük olduğu için 1 in sağına gelir
+
+6, 7 den küçük 5 den büyük olduğu için 5 in sağına gelir
+
+0, 7,5 ve 1 den küçük olduğu için 1 in soluna gelir
+
+9, 7 ve 8 den büyük olduğu için 8 in sağına gelir
+
+4, 7,5 den küçük fakat 1 ve 3 den büyük olduğu için 3 ün sağına gelir
+
+2, 7,5 den küçük 1 den büyük fakat 3 den küçük olduğu için 3 ün soluna gelir.
